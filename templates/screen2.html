@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love you so much</title>
+    <link rel="stylesheet" href="static\screen2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Khánh Mây Sarang</strong>
+                        <p>
+                            Cô bé của tui tủi mới nhiều sức khỏe nè.Tui chúc em khum còn khóc khum còn áp lực
+                            khum có giùy có thể cản được bé của tui.Nếu như em có gặp những khuất mắt
+                            hay những có khó khăn thì cứ chia sẻ cho tui nghen.I'm all ... ears nhóe.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
