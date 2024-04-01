@@ -1,4 +1,6 @@
-
+audio {
+  display: none;
+}
 :root{
     --primary: #fff;
     --bg-color: rgb(5, 53, 61);

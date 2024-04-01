@@ -18,9 +18,5 @@ def screen2():
 @app.route('/screen3')
 def screen3():
     return render_template('screen3.html')
-    
-
-
-
 if __name__ == "__main__":
     app.run(debug=True)
